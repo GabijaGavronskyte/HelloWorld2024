@@ -5,7 +5,6 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
-import android.graphics.Color;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -22,9 +21,5 @@ public class MainActivity extends AppCompatActivity {
     public void btnChangeTextClick(View view) {
         this.tvMain.setText("Hello");
 
-    }
-
-    public void btnChangeTextColor(View view) {
-        this.tvMain.setTextColor(Color.parseColor("#0000FF"));
     }
 }
